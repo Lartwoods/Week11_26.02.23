@@ -1,0 +1,50 @@
+.wrapper {
+  width: 90%;
+}
+.cart__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cart-card {
+  display: block;
+
+  justify-content: center;
+  width: 30%;
+  margin: 2%;
+  background-color: rgb(240, 240, 240);
+}
+
+.cart-card__image {
+  width: 70%;
+  margin: 2% 15%;
+}
+.cart-card__title {
+  font-weight: 600;
+}
+.cart-card__text {
+  width: 30%;
+}
+span {
+  font-weight: 600;
+  color: rgb(226, 0, 0);
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin-bottom: 2%;
+}
+.button_discount {
+  height: 70px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
